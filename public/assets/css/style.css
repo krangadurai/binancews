@@ -1,0 +1,258 @@
+* {
+  font-family: open sans, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, sans-serif;
+}
+.black {
+  background-color: black;
+}
+#trb_usdt {
+  max-width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+#trb_usdt .card {
+  border: none;
+  background-color: #21242a;
+}
+#trb_usdt .card-header {
+  background-color: #3b3f46;
+}
+#trb_usdt .table td {
+  padding: 10px 30px 0px 30px;
+}
+#trb_usdt .table {
+  background-color: #21242a;
+}
+#trb_usdt .table .top {
+  border-top: 1px solid #484747;
+}
+#trb_usdt .table .right {
+  border-right: 1px solid #484747;
+}
+
+#trb_usdt h5 {
+  font-size: 16px;
+  font-family: open sans, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+#trb_usdt h4 {
+  font-size: 24px;
+  font-family: open sans, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+#trb_usdt p {
+  color: #dadada;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-family: open sans, -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, sans-serif;
+}
+#trb_usdt .btn {
+  background-color: #fb6340;
+  border-color: #fb6340;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border-radius: 0.25rem;
+}
+#trb_usdt .trade {
+  background-color: #424646;
+  padding: 5px;
+  border-top-left-radius: 7px;
+}
+#trb_usdt .trade h6 {
+  color: #fff;
+  font-size: 14px;
+  font-family: monospace;
+}
+
+#history {
+  max-width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+#history .card {
+  border: none;
+  background-color: #21242a;
+  width: 100%;
+}
+#history .card-header {
+  background-color: #3b3f46;
+}
+#history .table td {
+  padding: 10px 30px 0px 30px;
+}
+#history .table {
+  background-color: #21242a;
+  color: #fff;
+}
+#history table th,
+table td {
+  padding: 10px 30px 0px 30px;
+  border: 1px solid #484747;
+  border-collapse: collapse;
+}
+#history h1 {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+#history .horizontal_scroll {
+  display: table-cell;
+  overflow-x: auto;
+  width: 100%;
+}
+#history .table td {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  white-space: nowrap;
+  padding: 20px;
+}
+#history table tbody tr:nth-child(odd) td {
+  background: #2c3138;
+}
+
+#history table tbody tr:nth-child(even) td {
+  background: #21242a;
+}
+#history .table tr > th:first-child,
+table tr > td:first-child {
+  position: sticky;
+  left: 0;
+}
+#history .table th:first-child,
+#history .table td:first-child {
+  background-color: #21242a; /* Change this to your desired background color */
+}
+
+#live_btn {
+  max-width: 1170px;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+#live_btn .container-fluid {
+  background-color: #3b3f46;
+}
+#live_btn .btn {
+  background-color: #fb6340;
+  border-color: #fb6340;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border-radius: 0.25rem;
+  margin: 10px 0px;
+}
+#trb_trade {
+  max-width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+#trb_trade .card {
+  border: none;
+  background-color: #21242a;
+}
+#trb_trade .card-header {
+  background-color: #3b3f46;
+}
+#trb_trade .table {
+  width: 100%;
+}
+#trb_trade .table {
+  background-color: #21242a;
+}
+#trb_trade .table .top {
+  border-top: 1px solid #484747;
+  border-bottom: 1px solid #484747;
+  margin: 10px 30px 0px 30px;
+}
+#trb_trade .table .right {
+  border-right: 1px solid #484747;
+}
+#trb_trade .table thead {
+  color: #fff;
+  padding: 10px 30px 0px 30px;
+}
+#trb_trade h5 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+#trb_trade h6 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+#trb_trade h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+#trb_trade p {
+  font-size: 0.9rem;
+  font-weight: 600;
+
+}
+#trb_trade table tbody tr:nth-child(odd) td {
+  background: #2c3138;
+}
+#trb_trade table tbody tr:nth-child(even) td {
+  background: #21242a;
+}
+
+#trb_trade .trade {
+  background-color: #424646;
+  padding: 5px;
+  border-top-left-radius: 7px;
+}
+#trb_trade .trade h6 {
+  color: #fff;
+  font-size: 14px;
+  font-family: monospace;
+}
+#trb_trade .table td + td + td,
+#trb_trade .table th + th + th {
+  text-align: right;
+}
+#trb_trade .table td + td,
+#trb_trade .table th + th {
+  text-align: right;
+}
+
+#trb_trade .table td,
+#trb_trade .table th {
+  text-align: left;
+}

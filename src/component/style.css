@@ -1,0 +1,15 @@
+/* styles.css */
+.custom-table .ant-table-content {
+    color: white; /* Set text color to white */
+  }
+  
+  /* Set header text color to white */
+  .custom-table .ant-table-thead th {
+    color: white;
+  }
+  
+  /* Set table cell background color */
+  .custom-table .ant-table-cell {
+    background-color: #333; /* Example background color */
+  }
+  
